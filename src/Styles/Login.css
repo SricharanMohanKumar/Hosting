@@ -1,0 +1,165 @@
+.login-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items horizontally */
+    background-color: #e6f7ff; /* Match the background color to your theme */
+    padding: 0px;
+  }
+  
+  .navbar h1 {
+    margin-left: 595px; /* Add space between the logo and the title */
+    color: #333; /* Adjust the color as needed */
+    font-size: 1.78em;
+    margin-top: -50px; /* Adjust the size as needed */
+  }
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust as needed */
+  }
+  
+  .form-container {
+    background-color: #d5f0f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 500px; /* Adjust as needed */
+    position: absolute;
+  }
+  
+  .close-button {
+    position: relative;
+    float: right;
+
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #ffffff;
+    background-color: #ff7f7f;
+    border-radius: 5px;
+    border: none;
+  }
+  .signup-link {
+    display: inline-block;
+    padding: 0px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    text-align: right;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .signup-text{
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #125da8;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .input-group label,
+  .input-group .templabel
+   {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .temp{
+    margin-right: -80px;
+  }
+  .temp input{
+    margin-right: -80px;
+    /* padding-left:  -100px; */
+  }
+  .temp label{
+    margin-right: -100px;
+  
+  }
+  .input-group input,
+  .input-group .temp input
+   {
+    width: 200px;
+    height: 25px;
+    margin-left: 20px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .input-group textarea {
+    width: 200px;
+    height: 70px;
+    margin-left: 20px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-footer {
+  
+    text-align: center;
+  }
+  
+  .form-footer a {
+    display: block;
+    margin-bottom: 20px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: -15px;
+    font-size:x-small;
+    padding-top: none;
+  }
+
+
+  
+  .form-footer button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-footer button[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+  }
+  
+  .form-footer button[type="button"] {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Additional styling for the SIGN UP button */
+  .form-footer button[type="button"]:last-child {
+    margin-right: 0;
+  }
+  
+  
