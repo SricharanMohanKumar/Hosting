@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import store from './Redux/Store';
 import { HashRouter } from 'react-router-dom'; // Import HashRouter
-
+import { BrowserRouter } from 'react-router-dom'; // Import HashRouter
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename='/'>
+    <HashRouter basename="/">
       <Provider store={store}>
         <App />
       </Provider>

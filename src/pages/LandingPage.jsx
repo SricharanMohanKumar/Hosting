@@ -28,8 +28,8 @@ const LandingPage = () => {
                         <span style={{  textAlign: 'center', color: 'black', fontSize: 20, fontFamily: '"Inter-Bold", Helvetica, sans-serif', fontWeight: '400', wordWrap: 'break-word' }}>
                         "Discover, create, and manage volunteering opportunities for impactful change."</span>
                     </p>
-                    <Button style={{ color: "black", backgroundColor: "#D3D3D3", fontSize: "20px", fontWeight: "Bold", marginRight: "10px", width: "150px" }} variant="contained" href="/#/Login"> LOGIN </Button>
-                    <Button style={{ color: "black", backgroundColor: "#D3D3D3", fontSize: "20px", fontWeight: "Bold", width: "150px" }} variant="contained" href="/#/SignUp"> SignUp </Button>
+                    <Button style={{ color: "black", backgroundColor: "#D3D3D3", fontSize: "20px", fontWeight: "Bold", marginRight: "10px", width: "150px" }} variant="contained" href="Hosting/#/Login"> LOGIN </Button>
+                    <Button style={{ color: "black", backgroundColor: "#D3D3D3", fontSize: "20px", fontWeight: "Bold", width: "150px" }} variant="contained" href="Hosting/#/SignUp"> SignUp </Button>
                 </div>
             </div>
         </div>
